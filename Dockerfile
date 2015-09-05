@@ -14,7 +14,7 @@ RUN mkdir /opt/webapp
 
 WORKDIR /opt/webapp
 
-RUN django-admin.py startproject testapp
+RUN django-admin.py startproject hackathon
 
 WORKDIR /opt/webapp/hackathon/hackathon
 
