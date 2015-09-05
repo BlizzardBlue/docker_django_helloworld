@@ -6,7 +6,7 @@ MAINTAINER JiYun Kim <dbdb6151@gmail.com>
 RUN apt-get update && \
 apt-get upgrade -y
 
-RUN apt-get install -y python python-pip nano && \
+RUN apt-get install -y python python-pip curl && \
 pip install django && \
 apt-get clean
 
