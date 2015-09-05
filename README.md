@@ -1,7 +1,7 @@
 # lightning_hackathon_150905
 
 **This image is for:**
-Building simple "HELLO WORLD" Django page.
+Building simple "HELLO WORLD" Django page on Docker.
 
 **This image install the following:**
 Python, Django, cURL
