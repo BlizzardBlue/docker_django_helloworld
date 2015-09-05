@@ -9,5 +9,5 @@ from hackathon.views import hello
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-        url(r'^$', hello)
+        url(r'^*', hello)
 )
