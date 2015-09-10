@@ -1,4 +1,4 @@
-# lightning_hackathon_150905
+# docker_django_helloworld
 
 **This image is for:**
 Building simple "HELLO WORLD" Django page on Docker.
