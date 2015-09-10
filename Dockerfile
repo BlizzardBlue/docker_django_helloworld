@@ -18,11 +18,10 @@ RUN django-admin.py startproject hackathon
 
 WORKDIR /opt/webapp/hackathon/hackathon
 
-RUN curl https://raw.githubusercontent.com/BlizzardBlue/lightning_hackathon_150905/master/urls.py >> urls.py && \
-curl https://raw.githubusercontent.com/BlizzardBlue/lightning_hackathon_150905/master/views.py >> views.py
+RUN curl https://raw.githubusercontent.com/BlizzardBlue/docker_django_helloworld/master/urls.py >> urls.py && \
+curl https://raw.githubusercontent.com/BlizzardBlue/docker_django_helloworld/master/views.py >> views.py
 
 WORKDIR /opt/webapp/hackathon
-CMD python manage.py runserver 0.0.0.0:80
-
 
 EXPOSE 80
+CMD python manage.py runserver 0.0.0.0:80
